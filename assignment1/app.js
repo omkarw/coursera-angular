@@ -1,0 +1,1 @@
+!function(){"use strict";function e(e){function s(e){var s="";if(""!=e){var n=e.split(",");n.length>3?s="This is too much.":n.length<=3&&(s="Enjoy!")}else s="Please enter data first";return s}e.dishes="",e.message="",e.displayMessage=function(){var n=s(e.dishes);e.message=n}}angular.module("lunchCalc",[]).controller("lunchCalculator",e),e.$inject=["$scope"]}();
